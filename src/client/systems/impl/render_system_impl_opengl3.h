@@ -23,4 +23,9 @@ private:
     SDL_Window* p_window = nullptr;
     SDL_GLContext m_glContext;
     std::string m_glslVersion;
+
+    GLuint m_vertexBuffer;
+    GLuint m_shaderProgram;
+    GLuint m_matrixId;
+    GLuint LoadShaders(const char* vertPath, const char* fragPath);
 };

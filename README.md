@@ -24,6 +24,7 @@ And the following dependencies:
 - [lua](https://www.lua.org/)
 - [enet](http://enet.bespin.org/)
 
+! GLM DOESNT PROVIDE PKGCONF FILES SO IT CANT BE USED WITHOUT CMAKE INSTALLED -> DEAL WITH THIS !
 
 This can be done by running the following commands in the msys2 ucrt64 console:
 ```
